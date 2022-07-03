@@ -1,0 +1,12 @@
+{
+    "total_request": 862,
+    "counter_requests_by_method": {
+        "GET": "782",
+        "POST": "80"
+    },
+    "quantity_request_by_ip": {
+        "172.26.20.185": "642",
+        "172.26.18.61": "198",
+        "172.26.22.188": "11"
+    }
+}
