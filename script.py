@@ -65,7 +65,6 @@ def parse_log(flag, path, file_expansion):
     return booklogs
 
 def http_requests(booklogs):
-    # Сбор количества запросов по методам и сложение их общего количества
     counter_requests_at_type = {}
     total_request = 0
     counter = 0
@@ -97,7 +96,6 @@ def http_requests(booklogs):
     return {'rezult_total_request': total_request, 'rezult_counter_requests' : rezult_counter_requests}
 
 def often_request(booklogs):
-    # Самые частые запросы с IP
     list_ip = []
     res_often_request = {}
     for item in booklogs:
